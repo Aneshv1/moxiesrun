@@ -8,10 +8,10 @@ import Footer from "../components/Footer.astro";
   <Header />
 
   <!-- Hero -->
-  <section class="bg-brand text-white py-20">
+  <section class="bg-white py-16 border-b border-gray-100">
     <div class="max-w-4xl mx-auto px-4 text-center">
-      <h1 class="font-heading text-5xl md:text-6xl font-extrabold mb-6">Sponsor the Event!</h1>
-      <p class="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+      <h1 class="font-heading text-5xl md:text-6xl font-extrabold mb-6 text-gray-900">Sponsor the Event!</h1>
+      <p class="text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed">
         Partner with Moxie's Run and make an impact in the fight against canine cancer.
       </p>
     </div>
@@ -20,71 +20,71 @@ import Footer from "../components/Footer.astro";
   <!-- Sponsor Form -->
   <section class="py-20 bg-white">
     <div class="max-w-2xl mx-auto px-4">
-      <div class="bg-cream rounded-2xl p-8 md:p-12">
-        <h2 class="font-heading text-3xl font-bold text-brand mb-8 text-center">Sponsorship Inquiry</h2>
+      <div class="bg-gray-50 rounded-2xl p-8 md:p-12">
+        <h2 class="font-heading text-3xl font-bold text-gray-900 mb-8 text-center">Sponsorship Inquiry</h2>
         <form id="sponsor-form" class="space-y-6">
           <div>
-            <label for="name" class="block font-heading font-semibold text-brand text-sm uppercase tracking-wide mb-2">Name *</label>
+            <label for="name" class="block font-heading font-semibold text-gray-900 text-sm uppercase tracking-wide mb-2">Name *</label>
             <input
               type="text"
               id="name"
               name="name"
               required
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent"
             />
           </div>
           <div>
-            <label for="email" class="block font-heading font-semibold text-brand text-sm uppercase tracking-wide mb-2">Email *</label>
+            <label for="email" class="block font-heading font-semibold text-gray-900 text-sm uppercase tracking-wide mb-2">Email *</label>
             <input
               type="email"
               id="email"
               name="email"
               required
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent"
             />
           </div>
           <div>
-            <label for="phone" class="block font-heading font-semibold text-brand text-sm uppercase tracking-wide mb-2">Phone</label>
+            <label for="phone" class="block font-heading font-semibold text-gray-900 text-sm uppercase tracking-wide mb-2">Phone</label>
             <input
               type="tel"
               id="phone"
               name="phone"
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent"
             />
           </div>
           <div>
-            <label for="company" class="block font-heading font-semibold text-brand text-sm uppercase tracking-wide mb-2">Your Company Name *</label>
+            <label for="company" class="block font-heading font-semibold text-gray-900 text-sm uppercase tracking-wide mb-2">Your Company Name *</label>
             <input
               type="text"
               id="company"
               name="company"
               required
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent"
             />
           </div>
           <div>
-            <label for="website" class="block font-heading font-semibold text-brand text-sm uppercase tracking-wide mb-2">Website</label>
+            <label for="website" class="block font-heading font-semibold text-gray-900 text-sm uppercase tracking-wide mb-2">Website</label>
             <input
               type="url"
               id="website"
               name="website"
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent"
             />
           </div>
           <div>
-            <label for="goals" class="block font-heading font-semibold text-brand text-sm uppercase tracking-wide mb-2">What Are You Looking To Get Out Of This Event? *</label>
+            <label for="goals" class="block font-heading font-semibold text-gray-900 text-sm uppercase tracking-wide mb-2">What Are You Looking To Get Out Of This Event? *</label>
             <textarea
               id="goals"
               name="goals"
               required
               rows="4"
               placeholder="Exposure, Sales, Helping Out. Please list"
-              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-none"
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent resize-none"
             ></textarea>
           </div>
           <button
             type="submit"
-            class="w-full bg-accent hover:bg-accent-light text-white font-heading font-bold text-lg uppercase tracking-wide py-4 rounded-md transition-colors shadow-lg"
+            class="w-full bg-brand hover:bg-brand-light text-white font-heading font-bold text-lg uppercase tracking-wide py-4 rounded-md transition-colors shadow-lg"
           >
             Submit
           </button>
@@ -93,7 +93,7 @@ import Footer from "../components/Footer.astro";
           <svg class="w-16 h-16 text-green-500 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
           </svg>
-          <h3 class="font-heading text-2xl font-bold text-brand mb-2">Thank you!</h3>
+          <h3 class="font-heading text-2xl font-bold text-gray-900 mb-2">Thank you!</h3>
           <p class="text-gray-600">We'll be in touch about sponsorship opportunities.</p>
         </div>
       </div>
