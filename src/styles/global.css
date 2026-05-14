@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1a3a2a;
+  --color-brand-light: #2d5a3f;
+  --color-accent: #c8a951;
+  --color-accent-light: #e0c76a;
+  --color-cream: #faf7f0;
+  --color-warm-gray: #f5f0e8;
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Open Sans", sans-serif;
+}

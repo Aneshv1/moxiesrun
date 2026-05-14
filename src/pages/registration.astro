@@ -1,0 +1,170 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout title="Register Now — Moxie's Run For Canine Cancer">
+  <Header />
+
+  <!-- Hero -->
+  <section class="bg-brand text-white py-20">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="font-heading text-5xl md:text-6xl font-extrabold mb-6">Register Now</h1>
+      <p class="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
+        Choose your race category and secure your spot for Moxie's Run!
+      </p>
+    </div>
+  </section>
+
+  <!-- Registration Options -->
+  <section class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- With Dog -->
+        <div class="bg-white border-2 border-accent rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+          <img src="/images/reg-with-dog.jpg" alt="5K run with your dog" class="w-full h-48 object-cover" />
+          <div class="bg-accent text-white text-center py-3">
+            <span class="font-heading font-bold text-sm uppercase tracking-wide">Most Popular</span>
+          </div>
+          <div class="p-8 text-center">
+            <h3 class="font-heading text-xl font-bold text-brand mb-2">5K In-Person Run/Walk</h3>
+            <p class="text-accent font-heading font-bold text-sm uppercase mb-6">With Dog</p>
+            <p class="font-heading text-5xl font-extrabold text-brand mb-2">$97<span class="text-2xl">.95</span></p>
+            <p class="text-gray-500 text-sm mb-8">CAD</p>
+            <ul class="text-left space-y-3 mb-8">
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">You + your dog run together</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">Bib number + finisher medal</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">Limited to 200 pairs</span>
+              </li>
+            </ul>
+            <a
+              href="#"
+              class="block w-full bg-accent hover:bg-accent-light text-white font-heading font-bold text-sm uppercase tracking-wide py-4 rounded-full transition-colors shadow-lg"
+            >
+              Register With Dog
+            </a>
+          </div>
+        </div>
+
+        <!-- No Dog -->
+        <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+          <img src="/images/reg-no-dog.jpg" alt="5K solo run" class="w-full h-48 object-cover" />
+          <div class="bg-gray-100 text-gray-500 text-center py-3">
+            <span class="font-heading font-bold text-sm uppercase tracking-wide">Solo Runner</span>
+          </div>
+          <div class="p-8 text-center">
+            <h3 class="font-heading text-xl font-bold text-brand mb-2">5K In-Person Run/Walk</h3>
+            <p class="text-gray-500 font-heading font-bold text-sm uppercase mb-6">No Dog</p>
+            <p class="font-heading text-5xl font-extrabold text-brand mb-2">$67<span class="text-2xl">.95</span></p>
+            <p class="text-gray-500 text-sm mb-8">CAD</p>
+            <ul class="text-left space-y-3 mb-8">
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">Run or walk solo</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">Bib number + finisher medal</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">Unlimited spots</span>
+              </li>
+            </ul>
+            <a
+              href="#"
+              class="block w-full bg-brand hover:bg-brand-light text-white font-heading font-bold text-sm uppercase tracking-wide py-4 rounded-full transition-colors"
+            >
+              Register Solo
+            </a>
+          </div>
+        </div>
+
+        <!-- Virtual -->
+        <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
+          <img src="/images/reg-virtual.jpg" alt="Virtual 5K run" class="w-full h-48 object-cover" />
+          <div class="bg-green-100 text-green-700 text-center py-3">
+            <span class="font-heading font-bold text-sm uppercase tracking-wide">On Sale</span>
+          </div>
+          <div class="p-8 text-center">
+            <h3 class="font-heading text-xl font-bold text-brand mb-2">Virtual 5K Run</h3>
+            <p class="text-gray-500 font-heading font-bold text-sm uppercase mb-6">Run Anywhere</p>
+            <div class="mb-2">
+              <span class="text-gray-400 line-through text-xl font-heading">$50.00</span>
+            </div>
+            <p class="font-heading text-5xl font-extrabold text-brand mb-2">$29<span class="text-2xl">.00</span></p>
+            <p class="text-gray-500 text-sm mb-8">CAD</p>
+            <ul class="text-left space-y-3 mb-8">
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">Run from anywhere</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">Support the cause remotely</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-gray-600 text-sm">42% off — limited time</span>
+              </li>
+            </ul>
+            <a
+              href="#"
+              class="block w-full bg-brand hover:bg-brand-light text-white font-heading font-bold text-sm uppercase tracking-wide py-4 rounded-full transition-colors"
+            >
+              Register Virtual
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Details Reminder -->
+      <div class="mt-16 bg-cream rounded-2xl p-8 text-center">
+        <h3 class="font-heading text-2xl font-bold text-brand mb-4">Event Details</h3>
+        <div class="grid sm:grid-cols-3 gap-6 text-gray-600">
+          <div>
+            <p class="font-heading font-bold text-brand">Date</p>
+            <p>Sunday, April 27th, 2025</p>
+          </div>
+          <div>
+            <p class="font-heading font-bold text-brand">Location</p>
+            <p>Muddy York Brewery, Stouffville, ON</p>
+          </div>
+          <div>
+            <p class="font-heading font-bold text-brand">Start Time</p>
+            <p>9:00 AM Sharp</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
